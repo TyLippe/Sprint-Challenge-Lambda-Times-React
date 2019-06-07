@@ -40,7 +40,7 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
     A HOC is actually a function that takes an argument and will return a component, with the instaclone project we used an authenticator as our HOC, if the username and password were correct we ran the app component.
 
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
 
     1. Styling sheets, a normal CSS file will do the job but with how many components we will  be building it would be easy to lose track and become a lot of code at the end of it all.
 
@@ -69,10 +69,10 @@ Follow these steps for completing your project.
 
 ## Minimum Viable Product
 
-- [ ] Go through the `Tabs`, `Tab`, `Cards`, and `Card` components following the instructions, and passing data and props to get the tabs and cards to appear on the screen.
-- [ ] Once the Tabs and Cards are rendering to the screen complete the `changeSelected` and `filterCards` functions in the `Content` component.
-- [ ] You should now be able to filter cards using your tabs!
-- [ ] Make sure all of your props being passed are validated using PropTypes.
+- [ x Go through the `Tabs`, `Tab`, `Cards`, and `Card` components following the instructions, and passing data and props to get the tabs and cards to appear on the screen.
+- [x] Once the Tabs and Cards are rendering to the screen complete the `changeSelected` and `filterCards` functions in the `Content` component.
+- [x] You should now be able to filter cards using your tabs!
+- [x] Make sure all of your props being passed are validated using PropTypes.
 - [ ] Find the `TopBar` and `Header` components. Convert these two components to Styled Components. You should not have any `className` props when you are finished.
 
 ## Stretch Challenge
