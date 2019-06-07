@@ -13,6 +13,10 @@ flex-direction: row;
 position: fixed;
 height: 44px;
 background-color: #333;
+
+@media (min-width: 1280px) {
+    width: 1280px;
+  }
 `;
 
 const TopContainerDiv = styled.div`
@@ -72,6 +76,10 @@ const RightSpan = styled.span`
 cursor: pointer;
 `;
 
+const LastChild = styled.span`
+margin-right: 0;
+`;
+
 const TopBar = () => {
   return (
     <TopBarDiv>
@@ -80,7 +88,7 @@ const TopBar = () => {
           <LeftSpan>TOPICS</LeftSpan><LeftSpan>SEARCH</LeftSpan>
         </TopContainerDivLeft>
         <TopContainerDivCenter>
-          <CenterSpan>GENERAL</CenterSpan><CenterSpan>BROWNBAG</CenterSpan><CenterSpan>RANDOM</CenterSpan><CenterSpan>MUSIC</CenterSpan><CenterSpan>ANNOUNCEMENTS</CenterSpan>
+          <CenterSpan>GENERAL</CenterSpan><CenterSpan>BROWNBAG</CenterSpan><CenterSpan>RANDOM</CenterSpan><CenterSpan>MUSIC</CenterSpan><CenterSpan><LastChild>ANNOUNCEMENTS</LastChild></CenterSpan>
         </TopContainerDivCenter>
         <TopContainerDivRight>
           <RightSpan>LOG IN</RightSpan>
