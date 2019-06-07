@@ -28,29 +28,44 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
+- [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+    
+    Proptypes are used to to make sure the right prop is being passed down to the right component, with Proptypes we are able to ensure that our components are given the correct prop to use.
+
+- [x] Describe a life-cycle event in React?
+    
+    A lifecycle in react is a method we use to invoke different parts of a component at a certain time in the users experience. Such as making sure the user is still there and if they are not, have a function start that maybe pauses a video or logs them out.
+
+- [x] Explain the details of a Higher Order Component?
+
+    A HOC is actually a function that takes an argument and will return a component, with the instaclone project we used an authenticator as our HOC, if the username and password were correct we ran the app component.
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+    1. Styling sheets, a normal CSS file will do the job but with how many components we will  be building it would be easy to lose track and become a lot of code at the end of it all.
+
+    2. Styled components, if we import styled components we will be able to delete classNames, add our own name and can style from within the js file. With this we are able to see our styles easier, they will also clean the js file of any normal html tags, which can help others see what is being worked on.
+
+    3. Either Sass (I have not worked with yet) or ReactStrap? I have an idea of what Sass is and it reminds me of Less, which would be useful because with Less we were able to do a ton of styling without having to type out a ton of code. Reactstrap is more about a gride system from what I understand. 
 
 ## Project Setup
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-- [ ] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
-- [ ] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
+- [x] Create a forked copy of this project.
+- [x] Add your project manager as collaborator on Github.
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
+- [x] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
+- [x] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
 
